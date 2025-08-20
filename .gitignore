@@ -1,0 +1,29 @@
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# IDE-specific folder for VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# User-specified folders
+training_images/
+old_stuff/
+
+# Large data and model files
+*.pth
+*.pt
+*.h5
+*.parquet
+*.csv
+
+# No way José
+.env
