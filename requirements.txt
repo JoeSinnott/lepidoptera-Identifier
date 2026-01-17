@@ -1,0 +1,15 @@
+# Data Processing (Pandas & Dask)
+pandas
+dask[complete]
+distributed
+pyarrow
+
+# AWS S3 Access (for boto3 imports)
+boto3
+
+# Utilities (for tqdm imports)
+tqdm
+
+# Machine Learning (for adult_larva_classifier.py)
+torch
+torchvision
