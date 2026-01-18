@@ -24,6 +24,7 @@ The pipeline consists of three main modules:
 2.  **Noise Reduction (Complete)**
     * **Problem:** Raw biological data lumps all life stages (eggs, caterpillars, adults) into one category.
     * **Solution:** A binary classifier trained on a manually seeded dataset to separate "Adults" from "Larvae."
+    * **Methodology:** Constructed a high-quality "Ground Truth" dataset via manual annotation, then trained a CNN to propagate these labels to the full dataset.
     * **Performance:** Achieving ~88% accuracy on validation splits, automating the cleaning of the raw dataset.
 3.  **Species Classification (Current Phase)**
     * **Architecture:** EfficientNet-B3 backbone selected for fine-grained feature extraction.
