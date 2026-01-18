@@ -25,8 +25,9 @@ The pipeline consists of three main modules:
     * **Problem:** Raw biological data lumps all life stages (eggs, caterpillars, adults) into one category.
     * **Solution:** A binary classifier trained on a manually seeded dataset to separate "Adults" from "Larvae."
     * **Performance:** Achieving ~88% accuracy on validation splits, automating the cleaning of the raw dataset.
-3.  **Species Classification & Deployment (In Progress)**
-    * Training a fine-grained species classifier (EfficientNet/ResNet) on the cleaned adult data.
+3.  **Species Classification (Current Phase)**
+    * **Architecture:** EfficientNet-B3 backbone selected for fine-grained feature extraction.
+    * **Status:** Currently tuning hyperparameters on the cleaned 'Adult' dataset to maximize validation accuracy across the 100 classes.
 
 ## Repository Structure
 
